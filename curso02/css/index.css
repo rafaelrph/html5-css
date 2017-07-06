@@ -1,0 +1,212 @@
+header {
+    position: relative;
+}
+
+.foto-home {
+    height: 200px;
+}
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+}
+.saudacao-inicio {
+    color: #889;
+    font-size: 5rem;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+}
+.saudacao em {
+    color: #851944;
+}
+.botao-index {
+    font-size: 1.25rem;
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 400px;
+    display: block;
+    text-align: center;
+    padding: .5em;
+    margin: 2em auto;
+}
+
+h2{
+    font-size: 3.2rem;
+    padding: 0.8em;
+}
+
+small{
+    padding: 2.2em;
+}
+
+.blog ol li {
+    margin: 1.2em 2em;
+    padding: 0.1em;
+}
+
+.sites{
+    font-size: 6rem;
+}
+
+.nome {
+    font-size: 4rem;
+}
+
+.saudacao {
+    padding: 2.5em;
+    margin: auto;
+    margin-bottom: 2.5em;
+}
+
+footer p {
+    padding: 1em 2em;
+
+}
+
+.secao-inicio h2 {
+    text-transform: uppercase;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: 10px solid black;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 10px solid #851944;
+}
+.blog li a {
+    color: #FCF;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+footer a {
+    color: #F99;
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+
+.palavra-home {
+    font-size: 1.1em;
+    color: #D5447E;
+    font-weight: bold;
+}
+
+.eficiencia {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+
+.boas-praticas {
+    position: absolute;
+    top: 13%;
+    left: 15%;
+}
+
+.codigo-limpo {
+    position: absolute;
+    top: 5%;
+    left: 27%;
+}
+
+.css3 {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+.html5 {
+    position: absolute;
+    top: 21%;
+    left: 12%;
+}
+
+.javascript {
+    position: absolute;
+    top: 12%;
+    left: 68%;
+}
+
+.acessibilidade {
+    position: absolute;
+    top: 8%;
+    left: 85%;
+}
+
+.responsivo {
+    position: absolute;
+    top: 25%;
+    left: 85%;
+}
+
+.otimizacoes {
+    position: absolute;
+    top: 22%;
+    left: 30%;
+}
+
+.agilidade {
+    position: absolute;
+    top: 31%;
+    left: 65%;
+}
+
+.design {
+    position: absolute;
+    top: 26%;
+    left: 24%;
+}
+
+.blog {
+    position: relative;
+}
+
+.mais-recente {
+    background-color: #F2FFFC;
+    padding: 1.5em;
+}
+
+.inicio-post{
+    position: absolute;
+    background-color: #F2FFFC;
+    padding: 1em;
+    left: 30%;
+    top: 7em;
+    height: 8em;
+    color: #000;
+}
+
+.blog .mais-recente a {
+    color: #F26;
+}
+
+.blog li {
+    width: 30%;
+}
