@@ -29,6 +29,16 @@ h1 {
     clear: both;
 }
 
+footer a:hover, 
+main a:hover {
+    color: red;
+}
+
+aside a:hover {
+    opacity: 0.7;
+    text-shadow: 0 0 2px pink;
+}
+
 main a {
     color: #851944;
 }
@@ -57,7 +67,6 @@ main p {
 }
 
 .rodape-pagina {
-    background-color: #000;
     color: #F2FFFC;
     padding: 1rem;
     clear: both;
