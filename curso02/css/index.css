@@ -4,6 +4,7 @@ html, body {
 }
 
 body {
+    display: block;
     perspective: 6px;
     -moz-perspective: 6px;
     -webkit-perspective: 6px;
@@ -175,6 +176,24 @@ footer p {
     width: 100%;
     display: block;
 }
+
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+
+.trabalhos li:last-child {
+    order: 3;
+}
+
+.trabalhos li {
+    border: 0.5em solid #000;
+}
+
 .blog {
     position: relative;
     color: #FFF;
