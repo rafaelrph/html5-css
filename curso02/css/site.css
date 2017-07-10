@@ -101,7 +101,35 @@ em {
     height: 40px;
     display: block;
     text-indent: -99999px;
+    position: relative;
 }
+
+.icones-redes-sociais a:focus::after,
+.icones-redes-sociais a:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    text-indent: 0;
+    width: 150px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    font-size: 0.75em;
+}
+
+.icones-redes-sociais a:focus::before,
+.icones-redes-sociais a:hover::before {
+    content: '';
+    width: 0.7em;
+    height: 0.7em;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(.5em) rotate(45deg);
+}
+
 
 .github {
     background-image: url(../imagens/github.png);
@@ -116,7 +144,7 @@ em {
 }
 
 main {
-    width: 85%;
+    width: calc(100% - 0.9 * 300px);
     float: left;
     padding-bottom: 80px;
 }
@@ -129,7 +157,7 @@ main {
 }
 
 .navegacao-site {
-    width: 15%;
+    width: calc(0.9 * 300px);
     float: right;
     position: relative;
     top: 300px;

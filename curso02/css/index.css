@@ -287,9 +287,12 @@ main {
     opacity: 0.45;
 }
 
-.mais-recente {
+.blog a:hover,
+.blog a:focus {
     background-color: #F2FFFC;
-    padding: 1.5em;
+    padding: 0.5em;
+    color: #F26;
+    width: 30%;
 }
 
 .inicio-post{
@@ -300,11 +303,14 @@ main {
     top: 7em;
     height: 8em;
     color: #000;
+    display: none;
 }
 
-.blog .mais-recente a {
-    color: #F26;
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
 }
+
 
 .blog li {
     width: 30%;

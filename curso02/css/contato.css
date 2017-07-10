@@ -1,0 +1,71 @@
+legend {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 10px 0px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 1.1em;
+    margin: 10px 0px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    float: right;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgba(60, 29, 61, 0.8);
+    color: white;
+    border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    border: 0.15rem solid black;
+}
+
+label::after,
+textarea::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#outro_assunto {
+    display: none;
+}
+
+#outro:checked ~ #outro_assunto {
+    display: inline;
+}
+
+.label-icone {
+    position: relative;
+}
+
+.label-icone ~ input[type=text],
+.label-icone ~ input[type=email] {
+    margin-left: 1.8em;
+}
+
+.label-icone::after {
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-position: center center;
+    background-size: 50% 50%;
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    width: 2em;
+    height: 2em;
+}
+
+.label-icone[for="nome"]::after {
+    background-image: url(../imagens/usuario.png);
+}
+
+.label-icone[for="email"]::after {
+    background-image: url(../imagens/email.png);
+}

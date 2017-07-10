@@ -7,19 +7,23 @@
     box-sizing: border-box;
 }
 
-blockquote:nth-of-type(odd) {
+blockquote {
+    position: relative;
+}
+
+blockquote:nth-of-type(even) {
     float: left;
     margin-left: 0;
     box-sizing: border-box;
 }
 
-blockquote:nth-of-type(even) {
+blockquote:nth-of-type(odd) {
     float: right;
     margin-right: 0;
     box-sizing: border-box;
 }
 
-blockquote:nth-of-type(odd) p {
+blockquote:nth-of-type(even) p {
     float: right
 }
 
@@ -33,4 +37,27 @@ blockquote:nth-of-type(odd) p {
                     transparent);
     background-size: 25% 100%;
     background-repeat: no-repeat;
+}
+
+.citacao-bio:hover, .citacao-bio:focus {
+    z-index: 9999;  
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75);
+    transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -webkit-transform: rotate(10deg) scale(1.2);
+}
+
+.container > p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+}
+
+blockquote::before {
+    content: '"';
+    font-size: 10em;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    opacity: 0.16;
 }
