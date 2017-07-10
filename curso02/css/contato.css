@@ -52,7 +52,7 @@ textarea::after {
 
 .label-icone::after {
     background-repeat: no-repeat;
-    background-color: gray;
+    background-color: #851944;
     background-position: center center;
     background-size: 50% 50%;
     position: absolute;
